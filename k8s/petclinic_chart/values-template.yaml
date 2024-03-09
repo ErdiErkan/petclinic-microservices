@@ -9,6 +9,3 @@ IMAGE_TAG_HYSTRIX_DASHBOARD: "${IMAGE_TAG_HYSTRIX_DASHBOARD}"
 IMAGE_TAG_GRAFANA_SERVICE: "${IMAGE_TAG_GRAFANA_SERVICE}"
 IMAGE_TAG_PROMETHEUS_SERVICE: "${IMAGE_TAG_PROMETHEUS_SERVICE}"
 DNS_NAME: "erdierkan.com"
-
-aws s3api create-bucket --bucket petclinic-helm-charts-erdi --region us-east-1
-aws s3api put-object --bucket petclinic-helm-charts-erdi --key stable/myapp/
